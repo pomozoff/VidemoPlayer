@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		269E79AA1D91B6F800557A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E79A91D91B6F800557A14 /* AppDelegate.swift */; };
-		269E79AC1D91B6F800557A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E79AB1D91B6F800557A14 /* ViewController.swift */; };
-		269E79AF1D91B6F800557A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E79AD1D91B6F800557A14 /* Main.storyboard */; };
-		269E79B21D91B6F800557A14 /* VidemoPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 269E79B01D91B6F800557A14 /* VidemoPlayer.xcdatamodeld */; };
-		269E79B41D91B6F800557A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269E79B31D91B6F800557A14 /* Assets.xcassets */; };
-		269E79B71D91B6F800557A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E79B51D91B6F800557A14 /* LaunchScreen.storyboard */; };
 		269E79C21D91B6F800557A14 /* VidemoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E79C11D91B6F800557A14 /* VidemoPlayerTests.swift */; };
 		269E79CD1D91B6F800557A14 /* VidemoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E79CC1D91B6F800557A14 /* VidemoPlayerUITests.swift */; };
+		269E79DC1D91B78C00557A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E79DB1D91B78C00557A14 /* AppDelegate.swift */; };
+		269E79E51D91B79F00557A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269E79DE1D91B79F00557A14 /* Assets.xcassets */; };
+		269E79E61D91B79F00557A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E79DF1D91B79F00557A14 /* LaunchScreen.storyboard */; };
+		269E79E71D91B79F00557A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E79E11D91B79F00557A14 /* Main.storyboard */; };
+		269E79E81D91B79F00557A14 /* VidemoPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 269E79E31D91B79F00557A14 /* VidemoPlayer.xcdatamodeld */; };
+		269E79F01D91C04F00557A14 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E79EF1D91C04F00557A14 /* Authorization.storyboard */; };
+		269E79F21D91C61000557A14 /* Channels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E79F11D91C61000557A14 /* Channels.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +37,19 @@
 
 /* Begin PBXFileReference section */
 		269E79A61D91B6F800557A14 /* VidemoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidemoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		269E79A91D91B6F800557A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		269E79AB1D91B6F800557A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		269E79AE1D91B6F800557A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		269E79B11D91B6F800557A14 /* VidemoPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VidemoPlayer.xcdatamodel; sourceTree = "<group>"; };
-		269E79B31D91B6F800557A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		269E79B61D91B6F800557A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		269E79B81D91B6F800557A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		269E79BD1D91B6F800557A14 /* VidemoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidemoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		269E79C11D91B6F800557A14 /* VidemoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidemoPlayerTests.swift; sourceTree = "<group>"; };
 		269E79C31D91B6F800557A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		269E79C81D91B6F800557A14 /* VidemoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidemoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		269E79CC1D91B6F800557A14 /* VidemoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidemoPlayerUITests.swift; sourceTree = "<group>"; };
 		269E79CE1D91B6F800557A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269E79DB1D91B78C00557A14 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		269E79DE1D91B79F00557A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269E79E01D91B79F00557A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269E79E21D91B79F00557A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269E79E41D91B79F00557A14 /* VidemoPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VidemoPlayer.xcdatamodel; sourceTree = "<group>"; };
+		269E79EF1D91C04F00557A14 /* Authorization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
+		269E79F11D91C61000557A14 /* Channels.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Channels.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +100,9 @@
 		269E79A81D91B6F800557A14 /* VidemoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				269E79A91D91B6F800557A14 /* AppDelegate.swift */,
-				269E79AB1D91B6F800557A14 /* ViewController.swift */,
-				269E79AD1D91B6F800557A14 /* Main.storyboard */,
-				269E79B31D91B6F800557A14 /* Assets.xcassets */,
-				269E79B51D91B6F800557A14 /* LaunchScreen.storyboard */,
-				269E79B81D91B6F800557A14 /* Info.plist */,
-				269E79B01D91B6F800557A14 /* VidemoPlayer.xcdatamodeld */,
+				269E79DA1D91B78C00557A14 /* Application */,
+				269E79E91D91B86600557A14 /* Modules */,
+				269E79DD1D91B79F00557A14 /* Resources */,
 			);
 			path = VidemoPlayer;
 			sourceTree = "<group>";
@@ -126,6 +123,74 @@
 				269E79CE1D91B6F800557A14 /* Info.plist */,
 			);
 			path = VidemoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		269E79DA1D91B78C00557A14 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				269E79DB1D91B78C00557A14 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		269E79DD1D91B79F00557A14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				269E79DE1D91B79F00557A14 /* Assets.xcassets */,
+				269E79DF1D91B79F00557A14 /* LaunchScreen.storyboard */,
+				269E79E11D91B79F00557A14 /* Main.storyboard */,
+				269E79EF1D91C04F00557A14 /* Authorization.storyboard */,
+				269E79F11D91C61000557A14 /* Channels.storyboard */,
+				269E79E31D91B79F00557A14 /* VidemoPlayer.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		269E79E91D91B86600557A14 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				269E79EA1D91B86600557A14 /* ServicesList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		269E79EA1D91B86600557A14 /* ServicesList */ = {
+			isa = PBXGroup;
+			children = (
+				269E79EB1D91B86600557A14 /* Assembly */,
+				269E79EC1D91B86600557A14 /* Interactor */,
+				269E79ED1D91B86600557A14 /* Presenter */,
+				269E79EE1D91B86600557A14 /* View */,
+			);
+			path = ServicesList;
+			sourceTree = "<group>";
+		};
+		269E79EB1D91B86600557A14 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		269E79EC1D91B86600557A14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		269E79ED1D91B86600557A14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		269E79EE1D91B86600557A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +303,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269E79B71D91B6F800557A14 /* LaunchScreen.storyboard in Resources */,
-				269E79B41D91B6F800557A14 /* Assets.xcassets in Resources */,
-				269E79AF1D91B6F800557A14 /* Main.storyboard in Resources */,
+				269E79F01D91C04F00557A14 /* Authorization.storyboard in Resources */,
+				269E79F21D91C61000557A14 /* Channels.storyboard in Resources */,
+				269E79E71D91B79F00557A14 /* Main.storyboard in Resources */,
+				269E79E51D91B79F00557A14 /* Assets.xcassets in Resources */,
+				269E79E61D91B79F00557A14 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +332,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269E79AC1D91B6F800557A14 /* ViewController.swift in Sources */,
-				269E79B21D91B6F800557A14 /* VidemoPlayer.xcdatamodeld in Sources */,
-				269E79AA1D91B6F800557A14 /* AppDelegate.swift in Sources */,
+				269E79E81D91B79F00557A14 /* VidemoPlayer.xcdatamodeld in Sources */,
+				269E79DC1D91B78C00557A14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,20 +369,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		269E79AD1D91B6F800557A14 /* Main.storyboard */ = {
+		269E79DF1D91B79F00557A14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				269E79AE1D91B6F800557A14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		269E79B51D91B6F800557A14 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				269E79B61D91B6F800557A14 /* Base */,
+				269E79E01D91B79F00557A14 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		269E79E11D91B79F00557A14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269E79E21D91B79F00557A14 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -362,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -420,7 +486,7 @@
 				DEVELOPMENT_TEAM = Y24464MUL3;
 				INFOPLIST_FILE = VidemoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.VidemoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.videmoplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -433,7 +499,7 @@
 				DEVELOPMENT_TEAM = Y24464MUL3;
 				INFOPLIST_FILE = VidemoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.VidemoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.videmoplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -536,12 +602,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		269E79B01D91B6F800557A14 /* VidemoPlayer.xcdatamodeld */ = {
+		269E79E31D91B79F00557A14 /* VidemoPlayer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				269E79B11D91B6F800557A14 /* VidemoPlayer.xcdatamodel */,
+				269E79E41D91B79F00557A14 /* VidemoPlayer.xcdatamodel */,
 			);
-			currentVersion = 269E79B11D91B6F800557A14 /* VidemoPlayer.xcdatamodel */;
+			currentVersion = 269E79E41D91B79F00557A14 /* VidemoPlayer.xcdatamodel */;
 			path = VidemoPlayer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
