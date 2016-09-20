@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		269E79AA1D91B6F800557A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E79A91D91B6F800557A14 /* AppDelegate.swift */; };
+		269E79AC1D91B6F800557A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E79AB1D91B6F800557A14 /* ViewController.swift */; };
+		269E79AF1D91B6F800557A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E79AD1D91B6F800557A14 /* Main.storyboard */; };
+		269E79B21D91B6F800557A14 /* VidemoPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 269E79B01D91B6F800557A14 /* VidemoPlayer.xcdatamodeld */; };
+		269E79B41D91B6F800557A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269E79B31D91B6F800557A14 /* Assets.xcassets */; };
+		269E79B71D91B6F800557A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E79B51D91B6F800557A14 /* LaunchScreen.storyboard */; };
+		269E79C21D91B6F800557A14 /* VidemoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E79C11D91B6F800557A14 /* VidemoPlayerTests.swift */; };
+		269E79CD1D91B6F800557A14 /* VidemoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E79CC1D91B6F800557A14 /* VidemoPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		269E79BE1D91B6F800557A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269E799E1D91B6F700557A14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269E79A51D91B6F700557A14;
+			remoteInfo = VidemoPlayer;
+		};
+		269E79C91D91B6F800557A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269E799E1D91B6F700557A14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269E79A51D91B6F700557A14;
+			remoteInfo = VidemoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		269E79A61D91B6F800557A14 /* VidemoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidemoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269E79A91D91B6F800557A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		269E79AB1D91B6F800557A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		269E79AE1D91B6F800557A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269E79B11D91B6F800557A14 /* VidemoPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VidemoPlayer.xcdatamodel; sourceTree = "<group>"; };
+		269E79B31D91B6F800557A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269E79B61D91B6F800557A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269E79B81D91B6F800557A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269E79BD1D91B6F800557A14 /* VidemoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidemoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269E79C11D91B6F800557A14 /* VidemoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidemoPlayerTests.swift; sourceTree = "<group>"; };
+		269E79C31D91B6F800557A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269E79C81D91B6F800557A14 /* VidemoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidemoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269E79CC1D91B6F800557A14 /* VidemoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidemoPlayerUITests.swift; sourceTree = "<group>"; };
+		269E79CE1D91B6F800557A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269E79A31D91B6F700557A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269E79BA1D91B6F800557A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269E79C51D91B6F800557A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269E799D1D91B6F700557A14 = {
+			isa = PBXGroup;
+			children = (
+				269E79A81D91B6F800557A14 /* VidemoPlayer */,
+				269E79C01D91B6F800557A14 /* VidemoPlayerTests */,
+				269E79CB1D91B6F800557A14 /* VidemoPlayerUITests */,
+				269E79A71D91B6F800557A14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		269E79A71D91B6F800557A14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269E79A61D91B6F800557A14 /* VidemoPlayer.app */,
+				269E79BD1D91B6F800557A14 /* VidemoPlayerTests.xctest */,
+				269E79C81D91B6F800557A14 /* VidemoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269E79A81D91B6F800557A14 /* VidemoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				269E79A91D91B6F800557A14 /* AppDelegate.swift */,
+				269E79AB1D91B6F800557A14 /* ViewController.swift */,
+				269E79AD1D91B6F800557A14 /* Main.storyboard */,
+				269E79B31D91B6F800557A14 /* Assets.xcassets */,
+				269E79B51D91B6F800557A14 /* LaunchScreen.storyboard */,
+				269E79B81D91B6F800557A14 /* Info.plist */,
+				269E79B01D91B6F800557A14 /* VidemoPlayer.xcdatamodeld */,
+			);
+			path = VidemoPlayer;
+			sourceTree = "<group>";
+		};
+		269E79C01D91B6F800557A14 /* VidemoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				269E79C11D91B6F800557A14 /* VidemoPlayerTests.swift */,
+				269E79C31D91B6F800557A14 /* Info.plist */,
+			);
+			path = VidemoPlayerTests;
+			sourceTree = "<group>";
+		};
+		269E79CB1D91B6F800557A14 /* VidemoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				269E79CC1D91B6F800557A14 /* VidemoPlayerUITests.swift */,
+				269E79CE1D91B6F800557A14 /* Info.plist */,
+			);
+			path = VidemoPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269E79A51D91B6F700557A14 /* VidemoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269E79D11D91B6F800557A14 /* Build configuration list for PBXNativeTarget "VidemoPlayer" */;
+			buildPhases = (
+				269E79A21D91B6F700557A14 /* Sources */,
+				269E79A31D91B6F700557A14 /* Frameworks */,
+				269E79A41D91B6F700557A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VidemoPlayer;
+			productName = VidemoPlayer;
+			productReference = 269E79A61D91B6F800557A14 /* VidemoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		269E79BC1D91B6F800557A14 /* VidemoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269E79D41D91B6F800557A14 /* Build configuration list for PBXNativeTarget "VidemoPlayerTests" */;
+			buildPhases = (
+				269E79B91D91B6F800557A14 /* Sources */,
+				269E79BA1D91B6F800557A14 /* Frameworks */,
+				269E79BB1D91B6F800557A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269E79BF1D91B6F800557A14 /* PBXTargetDependency */,
+			);
+			name = VidemoPlayerTests;
+			productName = VidemoPlayerTests;
+			productReference = 269E79BD1D91B6F800557A14 /* VidemoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		269E79C71D91B6F800557A14 /* VidemoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269E79D71D91B6F800557A14 /* Build configuration list for PBXNativeTarget "VidemoPlayerUITests" */;
+			buildPhases = (
+				269E79C41D91B6F800557A14 /* Sources */,
+				269E79C51D91B6F800557A14 /* Frameworks */,
+				269E79C61D91B6F800557A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269E79CA1D91B6F800557A14 /* PBXTargetDependency */,
+			);
+			name = VidemoPlayerUITests;
+			productName = VidemoPlayerUITests;
+			productReference = 269E79C81D91B6F800557A14 /* VidemoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269E799E1D91B6F700557A14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Akademon Ltd.";
+				TargetAttributes = {
+					269E79A51D91B6F700557A14 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y24464MUL3;
+						ProvisioningStyle = Automatic;
+					};
+					269E79BC1D91B6F800557A14 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y24464MUL3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 269E79A51D91B6F700557A14;
+					};
+					269E79C71D91B6F800557A14 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y24464MUL3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 269E79A51D91B6F700557A14;
+					};
+				};
+			};
+			buildConfigurationList = 269E79A11D91B6F700557A14 /* Build configuration list for PBXProject "VidemoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269E799D1D91B6F700557A14;
+			productRefGroup = 269E79A71D91B6F800557A14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269E79A51D91B6F700557A14 /* VidemoPlayer */,
+				269E79BC1D91B6F800557A14 /* VidemoPlayerTests */,
+				269E79C71D91B6F800557A14 /* VidemoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269E79A41D91B6F700557A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269E79B71D91B6F800557A14 /* LaunchScreen.storyboard in Resources */,
+				269E79B41D91B6F800557A14 /* Assets.xcassets in Resources */,
+				269E79AF1D91B6F800557A14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269E79BB1D91B6F800557A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269E79C61D91B6F800557A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269E79A21D91B6F700557A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269E79AC1D91B6F800557A14 /* ViewController.swift in Sources */,
+				269E79B21D91B6F800557A14 /* VidemoPlayer.xcdatamodeld in Sources */,
+				269E79AA1D91B6F800557A14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269E79B91D91B6F800557A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269E79C21D91B6F800557A14 /* VidemoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269E79C41D91B6F800557A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269E79CD1D91B6F800557A14 /* VidemoPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		269E79BF1D91B6F800557A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269E79A51D91B6F700557A14 /* VidemoPlayer */;
+			targetProxy = 269E79BE1D91B6F800557A14 /* PBXContainerItemProxy */;
+		};
+		269E79CA1D91B6F800557A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269E79A51D91B6F700557A14 /* VidemoPlayer */;
+			targetProxy = 269E79C91D91B6F800557A14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		269E79AD1D91B6F800557A14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269E79AE1D91B6F800557A14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		269E79B51D91B6F800557A14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269E79B61D91B6F800557A14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		269E79CF1D91B6F800557A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		269E79D01D91B6F800557A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		269E79D21D91B6F800557A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y24464MUL3;
+				INFOPLIST_FILE = VidemoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.VidemoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		269E79D31D91B6F800557A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y24464MUL3;
+				INFOPLIST_FILE = VidemoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.VidemoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		269E79D51D91B6F800557A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y24464MUL3;
+				INFOPLIST_FILE = VidemoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.VidemoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VidemoPlayer.app/VidemoPlayer";
+			};
+			name = Debug;
+		};
+		269E79D61D91B6F800557A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y24464MUL3;
+				INFOPLIST_FILE = VidemoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.VidemoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VidemoPlayer.app/VidemoPlayer";
+			};
+			name = Release;
+		};
+		269E79D81D91B6F800557A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y24464MUL3;
+				INFOPLIST_FILE = VidemoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.VidemoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VidemoPlayer;
+			};
+			name = Debug;
+		};
+		269E79D91D91B6F800557A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y24464MUL3;
+				INFOPLIST_FILE = VidemoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.VidemoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VidemoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269E79A11D91B6F700557A14 /* Build configuration list for PBXProject "VidemoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269E79CF1D91B6F800557A14 /* Debug */,
+				269E79D01D91B6F800557A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269E79D11D91B6F800557A14 /* Build configuration list for PBXNativeTarget "VidemoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269E79D21D91B6F800557A14 /* Debug */,
+				269E79D31D91B6F800557A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		269E79D41D91B6F800557A14 /* Build configuration list for PBXNativeTarget "VidemoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269E79D51D91B6F800557A14 /* Debug */,
+				269E79D61D91B6F800557A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		269E79D71D91B6F800557A14 /* Build configuration list for PBXNativeTarget "VidemoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269E79D81D91B6F800557A14 /* Debug */,
+				269E79D91D91B6F800557A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		269E79B01D91B6F800557A14 /* VidemoPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				269E79B11D91B6F800557A14 /* VidemoPlayer.xcdatamodel */,
+			);
+			currentVersion = 269E79B11D91B6F800557A14 /* VidemoPlayer.xcdatamodel */;
+			path = VidemoPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 269E799E1D91B6F700557A14 /* Project object */;
+}
